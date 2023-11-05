@@ -13,7 +13,7 @@ const Home = () => {
             <div className='vid-container'>
 
                 <video autoPlay loop muted controls={false}>
-                    <source src="../../Images/video.mp4" type="video/mp4" />
+                    <source src="../src/Images/video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <h1 className='vid-title'>BOOK YOUR BANQUETS</h1>

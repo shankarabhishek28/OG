@@ -5,15 +5,15 @@ const Carousel = () => {
   const items = [
     {
       
-      icon: '../../Images/banquet3.jpeg',
+      icon: '../src/Images/banquet3.jpeg',
     },
     {
       
-        icon: '../../Images/banquet6.jpeg',
+        icon: '../src/Images/banquet6.jpeg',
     },
     {
       
-        icon: '../../Images/banquet4.jpeg',
+        icon: '../src/Images/banquet4.jpeg',
     },
   ];
   const updateIndex = (newIndex) => {

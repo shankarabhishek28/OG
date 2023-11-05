@@ -13,7 +13,7 @@ const Slider = () => {
                 <div className='slider-container'>
                     <div className='slider'>
                         <div className='img-container'>
-                            <img src='../../Images/banquet.jpg' />
+                            <img src='../src/Images/banquet.jpg' />
                         </div>
 
                         <button className='book-btn'>Book Now</button>
@@ -21,7 +21,7 @@ const Slider = () => {
                     </div>
                     <div className='slider'>
                         <div className='img-container'>
-                            <img src='../../Images/banquet1.jpg' />
+                            <img src='../src/Images/banquet1.jpg' />
                         </div>
 
                         <button className='book-btn'>Book Now</button>
@@ -29,7 +29,7 @@ const Slider = () => {
                     </div>
                     <div className='slider'>
                         <div className='img-container'>
-                            <img src='../../Images/banquet2.jpg' />
+                            <img src='../src/Images/banquet2.jpg' />
                         </div>
 
                         <button className='book-btn'>Book Now</button>
@@ -37,7 +37,7 @@ const Slider = () => {
                     </div>
                     <div className='slider'>
                         <div className='img-container'>
-                            <img src='../../Images/banquet3.jpeg' />
+                            <img src='../src/Images/banquet3.jpeg' />
                         </div>
 
                         <button className='book-btn'>Book Now</button>
@@ -45,7 +45,7 @@ const Slider = () => {
                     </div>
                     <div className='slider'>
                         <div className='img-container'>
-                            <img src='../../Images/banquet6.jpg' />
+                            <img src='../src/Images/banquet6.jpg' />
                         </div>
 
                         <button className='book-btn'>Book Now</button>
@@ -53,7 +53,7 @@ const Slider = () => {
                     </div>
                     <div className='slider'>
                         <div className='img-container'>
-                            <img src='../../Images/banquet7.jpg' />
+                            <img src='../src/Images/banquet7.jpg' />
                         </div>
 
                         <button className='book-btn'>Book Now</button>
@@ -61,7 +61,7 @@ const Slider = () => {
                     </div>
                     <div className='slider'>
                         <div className='img-container'>
-                            <img src='../../Images/banquet8.png' />
+                            <img src='../src/Images/banquet8.png' />
                         </div>
 
                         <button className='book-btn'>Book Now</button>
@@ -69,7 +69,7 @@ const Slider = () => {
                     </div>
                     <div className='slider'>
                         <div className='img-container'>
-                            <img src='../../Images/banquet9.png' />
+                            <img src='../src/Images/banquet9.png' />
                         </div>
 
                         <button className='book-btn'>Book Now</button>
@@ -77,7 +77,7 @@ const Slider = () => {
                     </div>
                     <div className='slider'>
                         <div className='img-container'>
-                            <img src='../../Images/banquets10.jpg' />
+                            <img src='../src/Images/banquets10.jpg' />
                         </div>
 
                         <button className='book-btn'>Book Now</button>
