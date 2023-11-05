@@ -6,6 +6,7 @@ import { BrowserRouter,Routes,Route, useLocation } from 'react-router-dom'
 import Home from './components/Home'
 import Trending from './components/Trending'
 import TopBanquets from './components/TopBanquets'
+import BanquetForm from './components/BanquetForm'
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/trending" element={<Trending />} />
         <Route path="/top-banquets" element={<TopBanquets />} />
+        
+
       </Routes>
       
     </BrowserRouter>

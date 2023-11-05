@@ -5,22 +5,26 @@ import '../components/Slider.css'
 import Carousel from './Carousel'
 import Footer from './footer'
 import AboutSection from './About'
+import BanquetForm from './BanquetForm'
 
 const Home = () => {
 
     return (
         <div className='big'>
             <div className='vid-container'>
-
+            <BanquetForm />
                 <video autoPlay loop muted controls={false}>
                     <source src="../src/Images/video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <h1 className='vid-title'>BOOK YOUR BANQUETS</h1>
+                
                 <div className='btn-container'>
-                    <button className='btn'>BOOK NOW</button>
+                    
                     <button className='btn'>CONTACT US</button>
+                    <button className='btn'>BOOK NOW </button>
                 </div>
+                
 
 
 

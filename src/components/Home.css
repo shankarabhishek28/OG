@@ -25,7 +25,7 @@
 }
 .vid-title{
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 5%;
 }
 .vid-container {
@@ -45,7 +45,7 @@
   }
 .btn-container{
     position: absolute;
-    top: 53%;
+    top: 47%;
     left: 5%;
     display: flex;
     gap: 1rem;
@@ -188,4 +188,56 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  /* .formm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    border: 2px solid var(--color-primary);
+  } */
+  form {
+    color: black;
+    left: 60%;
+    top: 20%;
+    position: absolute;
+    background-color: #efe1d7;;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: left;
+    z-index: 99;
+    
+  }
+ 
+ 
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%; /* Change this to the desired fixed width */
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .formbtn-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }

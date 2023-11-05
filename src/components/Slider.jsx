@@ -4,7 +4,7 @@ import '../components/Slider.css'
 const Slider = () => {
     return (
         <>
-            <div className="heading">
+            <div className="heading trend">
                 <h1 className='top'>TRENDING</h1>
                 <h2 className='top2'>TRENDING</h2>
             </div>

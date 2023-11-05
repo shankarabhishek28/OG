@@ -1,8 +1,8 @@
 
 nav{
-    height: 5rem;
+    height: 6rem;
     width: 100vw;
-    
+   
     margin-top: 0rem;
 
 }
@@ -31,6 +31,9 @@ nav .nav_container ul{
     display: flex;
     gap: 3.5rem;
     align-items: center;
+}
+li{
+    font-size: 1.25rem;
 }
 .text{
     color:  #fff6c9;
@@ -64,9 +67,11 @@ nav .nav_container ul{
 .search-bar {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   
   .search-bar input {
+    margin-top: 20px;
     margin-right: 10px;
     padding: 5px;
   }

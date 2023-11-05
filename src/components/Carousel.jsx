@@ -5,7 +5,7 @@ const Carousel = () => {
   const items = [
     {
       
-      icon: '../src/Images/banquet3.jpeg',
+      icon: '../src/Images/banquet1.jpg',
     },
     {
       
@@ -13,8 +13,16 @@ const Carousel = () => {
     },
     {
       
-        icon: '../src/Images/banquet4.jpeg',
+        icon: '../src/Images/banquet3.jpeg',
     },
+    {
+      
+      icon: '../src/Images/banquet.jpg',
+  },
+  {
+      
+    icon: '../src/Images/banquets10.jpg',
+},
   ];
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
