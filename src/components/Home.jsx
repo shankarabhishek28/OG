@@ -1,6 +1,6 @@
 import React from 'react'
 import '../components/Home.css'
-
+import Video from '../Images/video.mp4'
 import '../components/Slider.css'
 import Carousel from './Carousel'
 import Footer from './footer'
@@ -14,7 +14,7 @@ const Home = () => {
             <div className='vid-container'>
             <BanquetForm />
                 <video autoPlay loop muted controls={false}>
-                    <source src="../src/Images/video.mp4" type="video/mp4" />
+                    <source src={Video} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <h1 className='vid-title'>BOOK YOUR BANQUETS</h1>
