@@ -26,7 +26,7 @@ const Carousel = () => {
     setActiveIndex(newIndex);
   };
   return (
-    <div className="carousel">
+    <div className="carousel animated">
       <div
         className="inner"
         style={{ transform: `translate(-${activeIndex * 100}%)`

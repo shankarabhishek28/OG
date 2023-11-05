@@ -4,7 +4,7 @@ import Footer from './footer'
 
 const Trending = () => {
   return (
-    <div className='animated'>
+    <div>
     <Slider/>
     <Footer />
     </div>
